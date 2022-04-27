@@ -6,6 +6,8 @@ Or you can simply run it from a CLI, e.g. command prompt if you are a Windows pe
 and run javac Main.class Enter, and then java Main. The some goes here, enter row, columns, X and Y one by one. 
 
 A few assumptions I made along the way:
+
+
     - Even though it says "The table can be seen as a matrix", I interpreted it more as a visual aid 
         to get you in the right mindset, therefore I chose to handle the "table" in variables and scrapped
         the whole idea of 2D arrays. Also since the key part of the test was to keep track of the moving "object"
