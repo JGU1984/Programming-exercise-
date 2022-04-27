@@ -27,7 +27,7 @@ public class Main {
 
         Player player = new Player();
         Random streamInt = new Random();
-        IntStream randomInt = streamInt.ints(20, 0, 5);
+        IntStream randomInt = streamInt.ints(50, 0, 5);
         int[] no = randomInt.toArray();
         System.out.println(Arrays.toString(no));
         for (int commandsHandler : no) {
